@@ -1,0 +1,10 @@
+<Vux>
+    <setattribute xpath="/recipes/recipe[@name='cobblestoneShapes:VariantHelper']/ingredient[@name='resourceCobblestones']" name="count">10</setattribute>
+
+    <insertAfter xpath="//recipe[@name='resourceCobblestones']">
+        <recipe name="resourceCobblestones" count="1">
+            <ingredient name="resourceClayLump" count="1"/>
+            <ingredient name="resourceRockSmall" count="1"/>
+        </recipe>
+    </insertAfter>
+</Vux>

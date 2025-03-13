@@ -1,0 +1,3 @@
+<Vux>
+    <remove xpath="/recipes/recipe[@name='FuriousRamsayActivatedCharcoal']/ingredient[@name='FuriousRamsayCalciumChloride']" name="count"/>
+</Vux>
